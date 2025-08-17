@@ -40,7 +40,7 @@ elif answer == 4:
   houses["Gryffindor"] +=4
 else:
   print("Wrong input")
-#Give out the score of each house,then inform the student which house they will go to
+#Give out the score of each house,then inform the student which house they belong to.
 print("Here are your scores:")
 for house, score in houses.items():
     print(f"{house}: {score} points")
